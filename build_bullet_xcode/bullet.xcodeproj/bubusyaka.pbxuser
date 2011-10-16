@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	A0000000000000000000000a /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 222D34130E9B60B800EC09C0 /* s3e_simulator_debug */;
+		activeTarget = 222D33CE0E9B5E6F00EC09C0 /* Basic */;
+		codeSenseManager = 222D34100E9B609400EC09C0 /* Code sense */; 
+
+		executables = (
+			222D34130E9B60B800EC09C0 /* s3e_simulator_debug */,
+			222D34130E9B60B800EC09C1 /* s3e_simulator_qemu */,
+			222D34130E9B60B800EC09C2 /* s3e_deploy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					295.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 245063822;
+			PBXWorkspaceStateSaveDate = 245063822;
+		};
+		sourceControlManager = 222D340F0E9B609400EC09C0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	222D340F0E9B609400EC09C0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	222D34100E9B609400EC09C0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	222D34130E9B60B800EC09C0 /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-via:\\\"$(CONFIGURATION_BUILD_DIR).via\\\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 222D34140E9B60B800EC09C0 /* s3e_simulator_debug */;
+		libgmallocEnabled = 0;
+		name = s3e_simulator_debug;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	222D34130E9B60B800EC09C1 /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-via:\\\"$(CONFIGURATION_BUILD_DIR).via\\\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 222D34140E9B60B800EC09C1 /* s3e_simulator_qemu */;
+		libgmallocEnabled = 0;
+		name = s3e_simulator_qemu;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	222D34130E9B60B800EC09C2 /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"--dir .",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 222D34140E9B60B800EC09C2 /* s3e_deploy */;
+		libgmallocEnabled = 0;
+		name = s3e_deploy;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	222D34140E9B60B800EC09C0 /* s3e_simulator_debug */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = s3e_simulator_debug;
+		path = /Developer/Marmalade/5.1/s3e/loader/osx/s3e_simulator_debug;
+		sourceTree = "<absolute>";
+	};
+	222D34140E9B60B800EC09C2 /* s3e_deploy */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = s3e_simulator_debug;
+		path = /Developer/Marmalade/5.1/Applications/DeployTool.app/Contents/MacOS/DeployTool;
+		sourceTree = "<absolute>";
+	};
+	222D34140E9B60B800EC09C1 /* s3e_simulator_qemu */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = s3e_simulator_qemu;
+		path = /Developer/Marmalade/5.1/s3e/loader/osx/s3e_simulator_qemu;
+		sourceTree = "<absolute>";
+	};
+}
